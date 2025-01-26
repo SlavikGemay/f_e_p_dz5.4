@@ -9,7 +9,7 @@ if (!numberInput?.trim() || isNaN(numberInput) || !Number.isInteger(+numberInput
 else {
     const number = +numberInput;
     if (number <= 1) {
-        alert(`Помилка, число ${number} не є простим. Введіть просте число.`)
+        alert(`Помилка, число ${number} не є простим. Введіть просте число.`);
     } else {
         for (let i = 2; i < number; i++) {
             if (number % i === 0){
